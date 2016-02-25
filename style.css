@@ -1,0 +1,99 @@
+body {
+  background-color: #ccfff5;
+}
+
+h1 {
+  color: navy;
+  font-size: 50px;
+  font-family: 'Special Elite', cursive;
+}
+
+input {
+  color: navy;
+  font-size: 16px;
+  border-color: navy;
+  height: 30px;
+  width: 200px;
+}
+
+.mark {
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  font-size: 100px;
+  font-family: 'Special Elite', cursive;
+}
+.winner {
+  text-align: center;
+  color: red;
+  font-weight: bold;
+  font-size: 80px;
+  font-family: 'Special Elite', cursive;
+}
+
+p {
+  text-align: center;
+  color: navy;
+  font-weight: bold;
+  font-size: 30px;
+  font-family: 'Special Elite', cursive;
+}
+
+.name {
+  text-align: center;
+  color: navy;
+  font-weight: bold;
+  font-size: 30px;
+  font-family: 'Special Elite', cursive;
+}
+
+#start {
+  text-align: center;
+  width: 200px;
+  height:30px;
+  background-color: navy;
+  font-size: 16px;
+  color: #ccfff5;
+  border-radius: 5px;
+  margin-top: 15px;
+}
+
+#replay {
+  text-align: center;
+  width: 200px;
+  height:30px;
+  background-color: navy;
+  font-size: 16px;
+  color: red;
+  border-radius: 5px;
+  margin-top: 15px;
+}
+
+.container{
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  border-width: medium;
+  border-width: 10px;
+  border-color: white;
+}
+
+#container2 {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  border-width: medium;
+  border-width: 10px;
+  border-color: white;
+}
+
+.square {
+  background-color: red;
+  height: 150px;
+  width: 150px;
+  border-style: solid;
+  border-width: 5px;
+  border-color: white;
+  /*border-color: #66ffcc;*/
+  border-radius: 5px;
+}

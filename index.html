@@ -4,19 +4,40 @@
   <meta charset="UTF-8">
   <title>Vanilla Tic-Tac-Toe</title>
   <link rel="stylesheet" href="style.css">
+  <link href='https://fonts.googleapis.com/css?family=Special+Elite' rel='stylesheet' type='text/css'>
 </head>
 <body>
-  <h1>Tic-Tac-Toe</h1>
+  <h1>Tic. Tac. Toe.</h1>
+  <div id="writeName"></div>
+  <div id="gameBoard">
+    <div class="container">
+      <div data="0" class="square sign" id="square0"></div>
+      <div data="1" class="square sign" id="square1"></div>
+      <div data="2" class="square sign" id="sqaure2"></div>
+    </div>
 
-  <div class="square sign"></div>
-  <div class="square sign"></div>
-  <div class="square sign"></div>
-  <div class="square sign"></div>
-  <div class="square sign"></div>
-  <div class="square sign"></div>
-  <div class="square sign"></div>
-  <div class="square sign"></div>
-  <div class="square sign"></div>
+    <div class="container">
+      <div data="3" class="square sign" id="square3"></div>
+      <div data="4" class="square sign" id="square4"></div>
+      <div data="5" class="square sign" id="square5"></div>
+      <div id="alert"></div>
+    </div>
+
+    <div class="container">
+      <div data="6" class="square sign" id="square6"></div>
+      <div data="7" class="square sign" id="square7"></div>
+      <div data="8" class="square sign" id="square8"></div>
+    </div>
+  </div>
+
+  <div id="container2">
+    <p>Play the Game</p>
+    <label for=""></label>
+    <input id="nameInput" type="text" placeholder="Enter Your Name">
+    <button id="start">Start</button>
+    <button id="replay">Play Again!</button>
+  </div>
+
   <script src="main.js"></script>
 </body>
 </html>
